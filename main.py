@@ -4,15 +4,14 @@ import time
 
 
 def League_Running():
-    return True
-    '''
+    
     if win32ui.FindWindow(None, "League of Legends (TM) Client"):
-
         return True
+    
     else:
-        print("not found")
+        print("Client window not found")
         return False
-    '''
+   
 flashtimer = 5
 barriertimer = 180
 healtimer = 240
